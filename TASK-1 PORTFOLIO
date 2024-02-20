@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title> Portfolio</title>
+</head>
+<body>
+    <header>AKSHAYA ALAPATI</header>
+
+<main>   
+    <div  class="container">
+   
+   <nav>
+    <a href="resume.html" target="_blank" download>RESUME</a>
+    <a href="demo.html">SKILLS</a>
+    <a href="contact.html">CONTACTS</a>
+   </nav>
+</div> 
+<div>
+    <p></p>
+</div>
+<div class="container">
+    <div class="image">
+      <img src="mypic .jpg">
+    </div>
+    <div class="text">
+        <h2>About Me !</h2>
+      <p>Hello! I'm A.AKSHAYA, a passionate web developer with experience in creating responsive and user-friendly websites. 
+        I specialize in HTML, CSS, and JavaScript, and enjoy bringing creative ideas to life.</p>
+    </div>
+    <div>
+
+        
+    </div>
+</main> 
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
+#CSS CODE
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://t4.ftcdn.net/jpg/04/31/67/23/360_F_431672384_lvTzMUjvsaID7i2ToZaa1L9WEW8kk1lM.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+nav {
+    background-color: rgb(0,0,0,0.338);
+    padding: 10px;
+    width: 100%;
+   text-align: center;
+}
+header{
+font-size: 40px;
+font-style: italic;
+text-align: center;
+}
+p{
+    font-size: 30px;
+}
+h2{
+    font-size: 50px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.image {
+    flex: 1;
+    order: 2;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.text {
+    flex: 2;
+    order: 1;
+    padding: 20px;
+    color:white;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.925);
+    color: white;
+    width: 100%;
+}
+
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column;
+    }
+}
+
+       
+
+       
+       
+    
+
+              
