@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>landing page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="conatiner"></div>
+    <header>
+        <div class="logo">
+        
+    </div>
+    <nav>
+       <a href="online.html"> BookOnline</a>  
+        <a href="about.html">About</a>  
+        <a href="contact.html">Contact</a>
+    </nav>
+    </header>
+   <main>
+   <div class="herobox1">
+   <h1> Mobile bike repair </h1>
+   <p>At Bike Repair Shop, we offer a comprehensive range of services to keep your bicycle in top condition and ensure your rides are smooth and enjoyable. Our experienced team of mechanics is dedicated to providing high-quality repairs and maintenance for all types of bicycles</p>
+   <a href="#" class="mybutton" >BOOK ONLINE</a>
+</div>
+   <div class="herobox2">
+   <img src="https://media.istockphoto.com/id/615281154/photo/mechanic-repairing-bicycle-rear-wheel.jpg?s=612x612&w=0&k=20&c=nBkGWTy2ERwp-8dATCiNSo_iAP1AVfpFScAwNr-wFoU=" alt="person servicing a bike">
+   </div>
+</main>
+   <div class="cards">
+   <div class="card1">
+    <a href="#">
+    <i class="fa fa-motorcycle" style="font-size: 100px; padding-left:100px; padding-right:100px;color:black "  ></i>
+    <h2>Book Online</h2>
+    <p> At Bike Repair Shop, we offer a comprehensive range of services to keep your bicycle in top condition and ensure your rides are smooth and enjoyable. </p>
+    </a>
+   </div>
+   <div class="card2">
+    <a href="#">
+    <i class="fa fa-cog" style="font-size: 100px; padding-left:100px; padding-right:100px; "></i>
+    <h2>Service Types</h2>
+    <p>At Bike Repair Shop, we offer a wide range of services to keep your bike in top condition and ensure your rides are smooth and enjoyable </p>
+    </a>
+   </div>
+   <div class="card3">
+    <a href="#">
+    <i class="fa fa-phone" style="font-size: 100px; padding-left:100px; padding-right:100px; color:black;"></i>
+    <h2>Call for Advice</h2>
+    <p>Got a question about your bike or need some advice on maintenance? </p>
+    </a>
+   </div>
+</div>
+<footer>
+    <p>&copy; 2024 Bike Repair Shop</p>
+  </footer>
+    
+</body>
+</html>
+
+
+#CSS CODE:
+body{
+    background-image: linear-gradient(skyblue,orange,pink);
+    color:white;
+}
+.mybutton{
+background-color: aliceblue;
+color: #fa4083;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+padding:11px 25px;
+display:inline-block;
+text-decoration: solid;
+box-shadow: 5px 5px rgb(0,0,0,0.338);
+}
+
+.container{
+    width:1024px; 
+   min-height:300px;
+   margin-left: auto;
+   margin-right: auto;
+}
+nav{
+    color:rgb(245, 245, 245);
+    font-style: italic;
+    font-size: 40px;
+    text-align: center;
+   
+}
+nav a{
+    text-decoration:solid;
+    color:black;
+}
+
+header{
+    
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+main{
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.cards{
+    #background-color: rgb(47,193,33);
+   
+    display:flex;
+    justify-content:space-between;
+}
+.card1{
+    background-image: url('https://media.istockphoto.com/id/1433834651/photo/cool-hipster-man-portrait.jpg?s=612x612&w=0&k=20&c=cqE7gpnE3oRJ5DOi4nCAYp3NuxgYJN2OuSAxl1xdhj4=');
+    background-size:cover;
+    background-repeat:no-repeat;
+    min-height: 250px;
+    width:30%;
+    
+
+}
+.card2{
+    background-image: url('https://static.vecteezy.com/system/resources/previews/013/571/983/non_2x/this-is-my-place-confident-young-man-keeping-arms-crossed-and-looking-at-camera-while-standing-near-his-motorcycle-in-garage-or-repair-shop-photo.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    min-height: 250px;
+    width:30%;
+}
+.card3{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj4C-ESK0nOh0lTtZfLxnrtXT3ezBSo86Lytwvq5RKBCi2lzmfcDMqtBs1maDesPOo_GU&usqp=CAU');
+    background-size:cover;
+    background-repeat:no-repeat;
+    min-height: 250px;
+    width:30%;
+   
+}
+.herobox1{
+     flex:2;
+     padding:90px ;
+}
+.herobox2{
+    flex:2;
+    padding:90px ;
+}
+#img{
+    height: 250px;
+    width:350px;
+}
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3.25rem;
+    margin-bottom: 1rem;
+}
+p{
+    line-height: 1.75rem;
+    margin-bottom: 0.5rem;
+    
+    
+}
+h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+    margin-top: 20px;
+    color:rgb(255, 0, 47);
+    text-align: center;
+}
+.cards p{
+    font-size: 1.5rem;
+    line-height: 1.2rem;
+    margin-top:10px ;
+    
+}
+.cards a{
+    color:aliceblue;
+    text-decoration: solid;
+}
+.card1, .card2, .card3{
+    padding:50px;
+    box-sizing:border-box ;
+    box-shadow: 5px 5px rgb(0,0,0,0.338);
+}
+footer{
+    background-color: #333;
+    padding: 0.5em 0;
+    text-align: center;
+   
+}
+
+#BOOK ONLINE
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>book online</title>
+        <style>
+            .book-online {
+  background-image:linear-gradient(skyblue,orange,pink) ;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  height: 100vh; /* Set height to 100% of the viewport height */
+  width: 100vw; /* Set width to 100% of the viewport width */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body{
+    overflow: hidden;
+}
+
+/* Additional styling for form elements */
+.book-online form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  width: 100%; /* Make the form fill the entire width of the container */
+}
+
+.book-online label {
+  font-weight: bold;
+}
+
+.book-online input[type="text"],
+.book-online input[type="email"],
+.book-online input[type="tel"],
+.book-online input[type="date"],
+.book-online input[type="time"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.book-online button {
+  grid-column: span 2;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.book-online button:hover {
+  background-color: #555;
+}
+
+  
+
+        </style>
+    </head>
+<body>
+<section class="book-online">
+    <h2>Book Online</h2>
+    <p>Schedule your bike repair appointment online for convenience.</p>
+    <form action="book.php" method="post">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Your Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="phone">Your Phone Number:</label>
+      <input type="tel" id="phone" name="phone" required>
+      <label for="date">Preferred Date:</label>
+      <input type="date" id="date" name="date" required>
+      <label for="time">Preferred Time:</label>
+      <input type="time" id="time" name="time" required>
+      <button type="submit">Book Now</button>
+    </form>
+  </section>
+</body>
+</html>
+
+
+#about code
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us</title>
+  <style>
+    body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(skyblue,orange,pink) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow:auto;
+}
+
+header {
+  background-color: #333;
+  color:#fff;
+  padding: 1em 0;
+}
+
+header h1 {   
+  margin: 0;
+  padding: 0;
+  
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+.about, .team {
+  margin-bottom: 30px;
+}
+
+.team-member {
+  text-align: center;
+}
+
+.team-member img {
+  width: 150px;
+ font-size: 50px;
+  margin-bottom: 10px;
+}
+h2{
+    color:#333;
+}
+p{
+    color: #fff;
+}
+footer{
+    background-color: #333;
+    padding: 1em 0;
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>About Us</h1>
+    <nav>
+      <ul>
+        <li><a href="landingpage.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="about">
+      <h2>Our Story</h2>
+      <p>Welcome to Bike Repair Shop! We have been servicing bikes for over 10 years. Our team of experienced mechanics is dedicated to providing top-notch repairs and maintenance for all types of bicycles. Whether you need a simple tune-up or a major overhaul, we've got you covered.</p>
+      <p>At Bike Repair Shop, we are passionate about bikes and committed to ensuring that every ride is smooth and enjoyable for our customers. Stop by our shop today and let us help you get back on the road!</p>
+    </section>
+    <section class="team">
+      <h2>Our Team</h2>
+      <div class="team-member">
+        <img src="https://www.1training.org/wp-content/uploads/2021/04/Car-Mechanic-Diploma-Level-4.jpg" alt="Mechanic 1">
+        <h3>John Doe</h3>
+        <p>Head Mechanic</p>
+        
+      </div>
+      <div class="team-member">
+        <img src="https://www.autotrainingcentre.com/wp-content/uploads/2018/10/mechanic-school.jpg" alt="Mechanic 2">
+        <h3>Jane Smith</h3>
+        <p>Bike Specialist</p>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 Bike Repair Shop</p>
+  </footer>
+</body>
+</html>
+
+#contact code
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <style>
+    body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image:linear-gradient(skyblue,orange,pink) ;
+}
+
+header {
+    background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1em 0;
+}
+
+main {
+  padding: 20px;
+}
+
+.contact-info, .contact-form {
+  margin-bottom: 20px;
+}
+
+.contact-info p {
+  margin: 5px 0;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contact-form button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #555;
+}
+footer{
+    background-color: #333;
+    padding: 1em 0;
+color:#fff;
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Contact Us</h1>
+  </header>
+  <main>
+    <section class="contact-info">
+      <h2>Contact Information</h2>
+      <p>Email: akshayaakshaya645@gmail.com</p>
+      <p>Phone: +91 9059558557</p>
+      <p>Address: 111/a main, guntur,Andhra Pradesh</p>
+    </section>
+    <section class="contact-form">
+      <h2>Send us a message</h2>
+      <form action="#" method="post">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Your Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 Your Website</p>
+  </footer>
+</body>
+</html>
+
+    
